@@ -63,7 +63,7 @@ const Step1PersonalDetails = ({
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full border border-gray-300 dark:border-gray-600 rounded-md p-2 focus:outline-none focus:border-blue-500 focus:ring-offset-blue-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100 transition-colors"
+          className="w-full border border-gray-300 dark:border-gray-600 rounded-md p-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 dark:focus:ring-blue-700 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 transition-colors"
         />
         {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
       </div>
