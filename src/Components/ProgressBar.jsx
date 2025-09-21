@@ -13,7 +13,7 @@ const ProgressBar = ({ currentStep, totalSteps }) => {
       </div>
 
       {/* Percentage text */}
-      <div className="text-right text-sm mt-1 font-medium">
+      <div className="text-right text-sm mt-1 font-medium  text-gray-900 dark:text-gray-100">
         {Math.floor(progressPercentage)}%
       </div>
     </div>
