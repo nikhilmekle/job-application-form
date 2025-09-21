@@ -47,7 +47,9 @@ const Step2JobPreferences = ({
       className="space-y-6 p-4 bg-white dark:bg-gray-800 rounded shadow text-gray-900 dark:text-gray-100"
     >
       <div>
-        <label className="block mb-1 font-medium">Job Role</label>
+        <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+          Job Role
+        </label>
         <select
           name="role"
           value={formData.role}
@@ -73,7 +75,9 @@ const Step2JobPreferences = ({
           .find((job) => job.role === formData.role)
           ?.fields.map((field) => (
             <div key={field}>
-              <label className="block mb-1 font-medium">{field}</label>
+              <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+                {field}
+              </label>
               <input
                 type="text"
                 name={field}

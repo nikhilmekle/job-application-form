@@ -57,7 +57,9 @@ const Step1PersonalDetails = ({
       className="space-y-6 p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transition-colors"
     >
       <div>
-        <label className="block mb-1 font-medium">Name</label>
+        <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+          Name
+        </label>
         <input
           type="text"
           name="name"
@@ -69,7 +71,9 @@ const Step1PersonalDetails = ({
       </div>
 
       <div>
-        <label className="block mb-1 font-medium">Email</label>
+        <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+          Email
+        </label>
         <input
           type="email"
           name="email"
@@ -85,7 +89,9 @@ const Step1PersonalDetails = ({
       </div>
 
       <div>
-        <label className="block mb-1 font-medium">Phone</label>
+        <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+          Phone
+        </label>
         <input
           type="tel"
           name="phone"
@@ -97,7 +103,9 @@ const Step1PersonalDetails = ({
       </div>
 
       <div>
-        <label className="block mb-1 font-medium">Resume</label>
+        <label className="block mb-1 font-medium text-gray-900 dark:text-gray-100">
+          Resume
+        </label>
         <input
           type="file"
           onChange={handleFileChange}
